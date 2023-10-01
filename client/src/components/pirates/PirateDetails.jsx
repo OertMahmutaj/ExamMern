@@ -71,6 +71,11 @@ const PirateDetails = () => {
             >
               Toggle Hook Hand
             </button>
+            {pirate.imageUrl && (
+              <div>
+                <img src={pirate.imageUrl} alt={pirate.name} />
+              </div>
+            )}
           </div>
         </div>
       ) : (
